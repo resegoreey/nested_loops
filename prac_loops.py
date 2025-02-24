@@ -13,4 +13,16 @@ def reverse_pyramid():
         for y in reversed(range(x + 1, 0, -1)):
             print("*", end=" ")
         print()
-reverse_pyramid()
+#reverse_pyramid()
+
+def multiplication_table():
+    rows = int(input("Rows: "))
+    columns = int(input("Colums: "))
+
+    for row in range(1, rows + 1):
+        #print(row)
+
+        for col in range(1, columns + 1):
+            print(f"{(row * col):2}", end = " ")
+        print()
+multiplication_table()
