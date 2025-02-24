@@ -15,14 +15,3 @@ def reverse_pyramid():
         print()
 #reverse_pyramid()
 
-def multiplication_table():
-    rows = int(input("Enter row #: "))
-    colmuns = int(input("Enter col #: "))
-    #multiplier = int(input("Enter a multiplier: "))
-    for row in range(1, rows + 1):
-        #print(i)
-        for col in range(1, colmuns + 1):
-        
-            print(f"{row * col:2}", end=" ")
-        print()
-multiplication_table()
